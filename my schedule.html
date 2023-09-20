@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>tablespan</title>
+    <style>
+        h1 {
+            color: rgb(21, 21, 97);
+        }
+
+        th {
+            color: blue;
+        }
+
+        td {
+            color: rgb(14, 126, 126);
+            text-decoration: solid;
+        }
+
+        table {
+            color: #32611d;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Using colspan and rowspan</h1>
+    <center>
+        <u>
+            <h4>My schedule</h4>
+        </u>
+    </center>
+
+    <table border="1" width="80%">
+        <tr>
+            <th> </th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th>Breakfast</th>
+            <td>In lair</td>
+            <td>with cronies</td>
+            <td>In Lair</td>
+            <td>In Lair</td>
+            <td>In Lair</td>
+
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td colspan="2">Design Traps</td>
+            <td colspan="3">Improve Hideout</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>train minions</td>
+            <td>train minions</td>
+            <td>train minions</td>
+            <td>train minions</td>
+            <td rowspan="2">world communication</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>manaical laughter</td>
+            <td>manaical laughter</td>
+            <td>manaical laughter</td>
+            <td>manaical laughter</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
